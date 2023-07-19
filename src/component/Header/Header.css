@@ -1,0 +1,143 @@
+.Head-category {
+    height: 60px;
+    display: flex;
+    padding: 0px 100px;
+    padding-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+
+}
+
+.Head-category p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.items-btun {
+    border: none;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 500 !important;
+    border: 1px rgba(194, 194, 194, 0.732) solid;
+    justify-content: start !important;
+
+    align-items: center;
+}
+.goros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-header img {
+    width: 100%;
+}
+
+.head {
+    width: 100%;
+}
+
+.bg-header img {
+    z-index: -1;
+    position: absolute;
+}
+
+.cards-head:hover {
+    
+    transform: scale(1.06);
+}
+
+.cards-head {
+    transition: 500ms ease;
+    text-align: center;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 4px 12px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 4px 12px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 4px 12px 0px rgba(34, 60, 80, 0.2);
+}
+.container2{
+    max-width: 2000px;
+    margin: auto;
+    width: 75%;
+}
+.DETAIL {
+    background-color: #ffffff82;
+    width: 100%;
+    height: 208px;
+    border-radius: 20px;
+}
+.cards-head {
+    background-color: #ffffff;
+    padding: 30px 7px 20px;
+}
+.cards-head{
+    
+    height: 170px;
+}
+.cards-head p{
+    padding-top: 10px;
+}
+.content-detail {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+.content-detail h2 {
+    font-weight: 700;
+
+}
+
+.content-detail p {
+    font-weight: 500;
+
+}
+
+.items-input {
+    border-radius: 10px;
+    width: 250px;
+    border: 1px rgb(153, 153, 153) solid;
+}
+
+.content-headers {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 999px) {
+    .bg-header {
+        display: none;
+    }
+
+    .Head-category {
+        display: none;
+    }
+
+    .input-categort input {
+        display: none;
+    }
+}
+
+
+.searchname {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E11C43;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 60px;
+    font-size: 20px;
+}
+
+.button-header-serch {
+    padding-top: 8px;
+}
+
+.input-categort {
+    padding: 0px 60px;
+}
+
+.input-categort {
+    gap: 10px;
+    display: flex;
+}

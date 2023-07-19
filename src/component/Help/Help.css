@@ -1,0 +1,39 @@
+.sectcompaniya {
+    height: 330px;
+}
+.sectcompani{
+    padding-top: 130px;
+    font-size: 64px;
+    color: rgb(46, 46, 46);
+    width: 100%;
+    text-align: center;
+}
+.container6{
+    max-width: 1400px;
+    margin: auto;
+    width: 80%;
+}
+.sectcompani-text h5{
+    font-weight: 600;
+
+}
+.sectcompani-text p{
+    padding-top: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.sectcompani-text{
+    padding-top: 50px;
+}
+.sectcompani-text{
+    margin: auto;
+    width: 80%;
+}
+.sectcompaniya{
+    background: url('https://i.ibb.co/ggVk7DD/bc.jpg') no-repeat center center/cover;
+
+}
+.spesial{
+    padding-left: 25px;
+    padding-bottom: 20px;
+}

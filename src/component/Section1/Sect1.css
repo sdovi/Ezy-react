@@ -1,0 +1,59 @@
+.hot {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    color: #18A7A7;
+}
+
+.card-renal {
+    border: none;
+    -webkit-box-shadow: 4px 25px 24px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 25px 24px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 25px 24px 0px rgba(34, 60, 80, 0.2);
+    
+    border-radius: 10px;
+
+}
+
+.hot {
+    margin: 0;
+}
+.card-renal{
+    transition: 500ms ease;
+}
+.card-renal:hover{
+    transform: scale(1.06);
+    
+}
+
+.renalt {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+
+
+}
+
+
+
+
+@media (max-width: 767px) {
+    .col-lg-2 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+
+}
+
+.renalt {
+    color: black;
+    padding: 10px 10px 10px;
+}
+.card-renal img{
+    width: 100%;
+
+}
+.hot{
+    text-align: center;
+}

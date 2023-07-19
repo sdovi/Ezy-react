@@ -1,0 +1,543 @@
+.cardsplant {
+    padding-top: 260px;
+    padding-bottom: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.items-btun {
+    border: none;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px rgba(194, 194, 194, 0.732) solid;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.goros {
+    padding-left: 20px;
+}
+
+.Search_Products {
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 30%);
+    width: 100%;
+    padding: 13px;
+
+    background: #e0e7ea;
+}
+
+.container3 {
+    margin: auto;
+    width: 90%;
+}
+
+.category-list li {
+    display: block;
+}
+
+.car-title {
+    overflow: auto;
+    height: 80px;
+}
+.tg{
+    color: #0084d6;
+}
+.classtelegram{
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+}
+.hots {
+    width: 22px;
+    height: 27px;
+}
+.classtelegram:hover{
+
+  transform: scale(1.01);
+}
+.classtelegram{
+
+    transition: 500ms;
+}
+.zakazth{
+    padding-top: 7px;
+    padding-left: 10px;
+}
+.bg-gray {
+    background: #efe9e7;
+    color: #3d1101;
+}
+.product-none{
+    text-align: center;
+    
+}
+.title-cards {
+
+    height: 55px;
+}
+
+.mob-version {
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    .mob-version {
+        display: block;
+    }
+
+    .lgvers {
+        display: none;
+    }
+    .setting-cards{
+        margin-top: 50px;
+        
+    }
+}
+
+.classhot {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.pricecategory {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Filtr {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+
+}
+
+#shop {
+    padding-bottom: 440px;
+    padding-top: 40px;
+}
+
+.Categorys {
+    padding-top: 42px;
+
+}
+
+input[type="search"] {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.cards-item1 {
+    padding: 20px;
+    border: 1px solid #F7EEEC
+}
+
+input#search-bar {
+    margin: 0 auto;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+}
+
+input#search-bar:focus {
+    border: 1px solid #00000081;
+    transition: 0.35s ease;
+}
+
+input#search-bar:focus::-webkit-input-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+}
+
+input#search-bar:focus::-moz-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+}
+
+input#search-bar:focus:-ms-placeholder {
+    transition: opacity 0.45s ease;
+    opacity: 0;
+}
+
+.SHOP-product {}
+
+#shop-menu {
+    width: 190px;
+    margin-right: 70px;
+    float: left;
+    letter-spacing: 1px;
+}
+
+#shop-menu h3 {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 8px 0 16px 0;
+}
+
+.items-input2 {
+    padding-left: 15px;
+}
+
+.items-input2::placeholder {
+    color: black;
+}
+
+
+.items-input2 {
+    border-radius: 10px;
+    width: 170px;
+    border: 1px rgb(153, 153, 153) solid;
+}
+
+.skidka {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.kolodki {
+    color: black;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.category-list a {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    color: #3D1101;
+    font-weight: 300;
+}
+
+.category-list a:hover {}
+
+#shop-menu i {
+    font-size: 32px;
+}
+
+
+.cart-menu {
+    width: 100%;
+    height: auto;
+}
+
+.searchwrap {
+    width: 60%;
+    float: left;
+    position: relative;
+}
+
+.searchwrap .search,
+.searchwrap .search-button {
+    border: 2px solid #3D1101;
+    outline: none;
+}
+
+.searchwrap .search-button {
+    border-radius: 3px;
+    background: #3D1101;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+.cart li {
+    float: left;
+}
+
+.cart li a {
+    display: block;
+    padding: 8px 12px;
+    color: #3D1101;
+}
+
+.product-list li {
+    width: 31.333333%;
+    margin: 2% 2% 2% 0;
+    /*height: 280px;*/
+    float: left;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-list li img {
+    margin-bottom: 12px;
+}
+
+.product-list li h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.product-list li p {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 300;
+    position: relative;
+}
+
+.product-list li a p:after {
+    content: "";
+    width: 91px;
+    border-top: 1px solid #3D1101;
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    transform: translateX(-50%);
+}
+
+.product-list li a {
+    color: #3D1101;
+}
+
+.product-list .product-price {
+    margin-top: 32px;
+    font-size: 20px;
+}
+
+.product-list .product-price span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.product-list li .add-to-cart {
+    color: #FF5E45;
+    display: block;
+    margin: 20px auto 12px auto;
+    width: 90%;
+    border: 2px solid #FF5E45;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+.product-list li .add-to-cart:hover {
+    background: #FF5E45;
+    color: #fff;
+}
+
+.Categorys {
+    width: 100%;
+    height: 100%;
+}
+
+.cards {
+    background-color: red;
+
+}
+
+.kozrina-sect {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-card {
+    padding-top: 20px;
+
+}
+
+.cards-category aside {
+    width: 180px;
+}
+
+.photo-cards {
+    width: 100%;
+    height: 119px;
+}
+
+.img-korzina {
+    width: 49.2px;
+    height: 43px;
+}
+
+
+
+.cards-item1 {
+    width: 100%;
+}
+
+.cards-item1 {
+    width: 100%;
+    vertical-align: top;
+
+}
+
+.title-cards {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.price-card {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.car-title {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.card-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: top;
+
+}
+
+.card-info {
+    /*background-color: lightblue;*/
+    margin: 0 auto;
+}
+
+.card-text {
+    font-family: Impact sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+
+.menu-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.cards-button {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #F137A6 inset, 0 0 0 0 #F137A6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+
+}
+
+.cards-button:hover {
+    box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+    color: #F137A6;
+}
+
+.cards-price {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+
+
+    color: #46A358;
+    padding-top: 10px;
+
+}
+
+/* check */
+.checkbox {
+    color: black;
+}
+
+/* check-end */
+
+
+
+@media screen and (max-width: 768px) {
+    .Categorys {
+        display: none;
+    }
+
+    .photo-cards {
+        height: 50%;
+        width: 50%;
+
+        margin: 0 auto;
+    }
+
+    .cards-item1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .kolodki {
+        text-align: center;
+
+    }
+
+    .classhot {
+
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .photo-cards {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        /* Центрирует фото по горизонтали */
+    }
+
+    .card-info {
+        margin-top: 10px;
+    }
+
+}

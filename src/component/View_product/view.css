@@ -1,0 +1,245 @@
+.view-photo {
+    display: block;
+}
+
+.view-photo-common {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-photo-common img {
+    padding-top: 20px;
+
+
+}
+.mobile-view{
+    display: none;
+}
+@media screen and (max-width:560px){
+    .laptop{
+        display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
+    
+}
+@media screen and (min-width: 564px) and (max-width: 1002px) {
+    .benz {
+        width: 100% !important;
+    }
+
+    .benzing {
+        width: 20% !important;
+    }
+
+    .motors {
+        font-size: 25px !important;
+    }
+
+    .price-view {
+        font-size: 20px !important;
+    }
+
+    .view-btn1 {
+        width: 100% !important;
+        font-size: 12px !important;
+        padding: 10px 5px !important;
+    }
+
+    .view-btn2 {
+        width: 100% !important;
+        font-size: 10px !important;
+        padding: 10px 5px !important;
+    }
+}
+
+.view-photo-common {
+    width: 100%;
+}
+
+.motors {
+    color: #333333;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.view-photo {
+    width: 100%;
+}
+
+.View-text-twocards {
+    display: block;
+    align-items: center;
+    width: 100%;
+}
+
+.benz {
+    width: 100%;
+}
+
+.benzing {
+    width: 100px;
+}
+
+.price-view {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.benz.fullscreen {
+  cursor: pointer;
+}
+
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.fullscreen-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+.copelachiya {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.info-copelachiya-view {
+    padding-top: 40px;
+}
+
+.obyom-view {
+    font-family: Roboto;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #333333;
+
+}
+
+.view-btn2 {
+    padding: 10px 40px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px red solid;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: black;
+
+}
+
+.view-button {
+    padding-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.view-btn1 {
+    padding: 10px 50px;
+    background-color: #E11C43;
+    border-radius: 20px;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: white;
+
+}
+
+.view-price {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #867777;
+
+}
+
+.View-cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.otziv {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.stars {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.otziv50 {
+    padding-left: 17px;
+}
+
+.otzid130 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.view-p {
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.deskription-view{
+    padding-top: 60px;
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #333333;
+
+}

@@ -1,0 +1,324 @@
+/* form starting stylings ------------------------------- */
+
+
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
+.modal{
+  transition: 500ms ease;
+}
+input:focus {
+  outline: none;
+}
+.korzina{
+  color: black;
+}
+.App{
+  z-index: 99999;
+}
+.krestik{
+  color: black;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+@media screen  and (max-width: 990px){
+  .collapse  {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  
+}
+.collapse input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.menu {
+  cursor: pointer;
+  margin: 0 auto;
+  padding-left: 1.25em;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.menu-global {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 7px solid rgba(0, 0, 0, 0.511);
+  width: 100%;
+  transition: 0.55s;
+}
+
+.menu-top {
+  top: 0;
+}
+
+.menu-middle {
+  top: 18px;
+}
+
+.menu-bottom {
+  top: 36px;
+}
+
+.menu-top-click {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(50deg);
+  transition: 0.55s 0.5s;
+}
+
+.menu-middle-click {
+  opacity: 0;
+}
+
+.menu-bottom-click {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  top: 15px;
+  transform: rotate(-410deg);
+  transition: 0.55s 0.5s;
+}
+.modal.show{
+  
+  transform: scale(1.07);
+}
+
+.search-texts{
+  width: 100% ;
+  color: black;
+  text-decoration: none;
+}
+.dropdownusers::before{
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+
+}
+.labels{
+  width: 260px;
+}
+.iconsearchs {
+  color: black;
+  right: 5px;
+  top: 24px;
+  position: absolute;
+  transition: 500ms ease;
+  backface-visibility: hidden;
+}
+.iconsearchs:hover{
+  transform: scale(1.2);
+}
+.dropdownusers{
+  z-index: 10;
+  position: absolute;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  top:80px;
+  right: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 200px;
+}
+.text-dropdonw{
+  text-align: center;
+  font-size: 18px;
+  
+}
+.dropdownusers.active{
+  visibility: visible;
+  transition: 500ms ease;
+  opacity: 1;
+  
+
+}
+.text-dropdonw{
+  color: black;
+}
+.dropdownusers.inactive{
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 500ms ease;
+  
+
+}
+.text-dropdonw:hover{
+  transform: scale(1.02);
+  
+}
+.search-input::placeholder{
+  font-size: 13.5px;
+
+}
+/* LABEL ======================================= */
+.labels {
+  color: #999;
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 6px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus~.labels,
+input:valid~.labels {
+  top: -10px;
+  font-size: 14px;
+  color: #5264AE;
+}
+
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 300px;
+}
+
+.bar:before,
+.bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264AE;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus~.bar:before,
+input:focus~.bar:after {
+  width: 50%;
+}
+
+.content-nav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  padding-right: 20px;
+}
+
+.i-serch {
+  padding-right: 23px;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+
+/* modal */
+.search-cards-nav{
+  width: 300px !important;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgba(29, 29, 29, 0.823);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Добавьте это свойство */
+}
+.text-searchs{
+  display: block;
+}
+.ing-steawd{
+  
+  width: 120px;
+  height: 100px;
+}
+.wiev-podropno {
+  background-color: #5264AE;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.modal-content{
+  width: 40%;
+  margin: auto;
+  overflow: hidden;
+}
+.modal-content{
+  display: block;
+  padding: 20px;
+}
+.cardsseracg{
+  display: block;
+  width: 100%;
+}
+.search-texts{
+  width: 100%;
+  padding-left: 30px;
+  font-size: 16px;
+}
+.text-p-search{
+  padding-left: 30px;
+  color: black;
+}
+.search-cards-nav{
+  display: flex;
+  padding: 10px;
+}
+.modal.show {
+  display: flex;
+}
+
+.modal-content {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.modal-content h2 {
+  margin-top: 0;
+}
+
+.modal-content p {
+  margin-bottom: 0;
+}
+/* modal-end */

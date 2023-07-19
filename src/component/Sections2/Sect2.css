@@ -1,0 +1,104 @@
+.Svechi {
+    width: 360px;
+}
+
+.card1-avto {
+    display: flex;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+
+.cards1-avto-text {
+    padding: 20px 0px 20px 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.cards1-avto-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.btn-cards2-avto button {
+    height: 100%;
+    color: #18A7A7 !important;
+    border: 1px solid #18A7A7 !important;
+}
+
+.img-avto-cards3 img {
+    width: 100%;
+}
+
+.cards2-avto-text {
+    padding: 20px 5px 10px 25px;
+}
+
+.img-avto-cards3 img {
+    width: 174px;
+
+}
+
+.btn-cards2-avto button {
+    display: block;
+    align-items: center;
+
+}
+
+.content-avto2 {
+    display: block;
+    justify-content: start;
+}
+
+.content-avto {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: start;
+}
+
+.input-search-content {
+    width: 250px;
+    border: none;
+}
+
+.content-avto2 {
+    padding: 25px 30px;
+}
+
+.photo-search {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+}
+
+.card1-avto2 {
+    color: white;
+    background: rgb(24, 167, 167);
+    background: linear-gradient(3deg, rgba(24, 167, 167, 1) 0%, rgba(35, 196, 196, 1) 100%);
+
+    border-radius: 20px;
+}
+
+.input-search-content::placeholder {
+    font-size: 15px;
+
+    padding-left: 5px;
+}
+
+.cards2-avto-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+
+}
